@@ -1,16 +1,16 @@
-/* Verificar en la base de datos de usuarios si el nombre del usuario se encuentra registrado,
- si no se encuentra registrado permitir realizar el registro del nombre usuario,
- teniendo encuenta el siguiente protocolo 
- 1. Nombre de usuario debe ser superior a 8 caracteres
- 2. La primera letra del nombre del usuario debe ser en mayuscula
- 3. El primer caracter no puede ser numerico
- 4. El ultimo caracter del nombre de usuario no puede ser numerico*/
+/* Crear un algoritmo que permita verificar en una base de datos si el nombre del usuario 
+se encuentra registrado, si no se encuentra registrado permitir realizar el registro del nombre usuario,
+teniendo en cuenta el siguiente protocolo:
+1.	Nombre de usuario debe ser superior a 8 caracteres
+2.	El primer carácter no puede ser numérico
+3.	La primera letra del nombre del usuario debe ser en mayúscula 
+4.	El ultimo carácter del nombre de usuario no puede ser numérico*/
 
 let dbUsers = [
   'EduardoVelasco',
   'Pepitoperez',
   'JuanSanchez',
-  'Carlosmario98z',
+  'Carlosmario98z'
 ]
 
 function registro() {
