@@ -1,0 +1,59 @@
+h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: brown;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.container {
+  width: 35vw;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  box-shadow: 0px 1px 5px 0px #000000;
+  border: none;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__title {
+  font-size: 1.2em;
+}
+
+.item__user {
+  width: 40%;
+  font-size: 1.2em;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgb(163, 157, 157);
+}
+
+.Button--Registration {
+  background-color: blue;
+  color: #fff;
+  font-size: 1.2em;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 0;
+}
+
